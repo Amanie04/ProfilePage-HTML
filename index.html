@@ -2,17 +2,214 @@
 <html>
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
 
   <title>PIXELLOGIC LABS </title>
+  <style>
+      /* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.header_section {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.header_top {
+  background-color: #212529;
+}
+
+.header_bottom {
+  padding: 15px 0;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Hero Area Styles */
+.hero_area {
+  background-image: url('path/to/your-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.detail-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.detail-box h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.detail-box p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Feature Section Styles */
+.feature_section {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.feature_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box img {
+  border-radius: 50%;
+  float: left;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* About Section Styles */
+.about_section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.about_section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Client Section Styles */
+.client_section {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.carousel-wrap {
+  margin-top: 20px;
+}
+
+.carousel-wrap .item {
+  text-align: center;
+}
+
+.box .client_id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.client_id img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.client_text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Contact Section Styles */
+.contact_section {
+  padding: 50px 0;
+}
+
+.contact_section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Section Styles */
+.footer_section {
+  background-color: #212529;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer_section a {
+  color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .detail-box {
+    padding: 0 20px;
+  }
+
+  .box {
+    flex: 0 0 100%;
+  }
+}
+
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+  </style>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -63,7 +260,7 @@
       <div class="container ">
         <div class="row">
           <div class="col-md-6 ">
-            <div class="detail-box" align="left">
+            <div class="detail-box">
               <h1 align="left">
                 We do all your <br>
                 WEB APPLICATION <br>
@@ -74,11 +271,14 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="row-md-6">
             <div class="img-box">
               <img src="images/pixellogiclabs.png" alt="group logo" width="600" height="512">
             </div>
           </div>
+        </div>
+        </div>
+        </div>
         </div>
       </div>
     </section>
@@ -109,7 +309,7 @@
             </svg>
           </div><img src="https://i.pinimg.com/564x/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.jpg" height="100" width="100">
           <h5 class="name">
-           THEJANI GUNARATHNE 
+            PANCHAMA AMANI
           </h5>
         </div>
         <div class="box">
@@ -117,7 +317,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512"> </svg>
           </div><img src="https://i.pinimg.com/564x/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.jpg" height="100" width="100">
           <h5 class="name">
-           SAJINI HIMAHANSI 
+            THEJANI GUNARATHNE
           </h5>
         </div>
         <div class="box">
@@ -125,7 +325,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512"></svg>
           </div><img src="https://i.pinimg.com/564x/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.jpg" height="100" width="100">
           <h5 class="name">
-            PANCHAMA AMANI
+            <a href="sajini.html">SAJINI HIMAHANSI</a>
           </h5>
         </div>
       </div>
@@ -139,7 +339,7 @@
   <section class="about_section layout_padding-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-md-6">
+        <div class="col-lg-1 col-md-1">
           <div class="detail-box">
             <h2>
               About us
@@ -154,7 +354,7 @@
         </div>
         <div class="col-lg-7 col-md-6">
           <div class="img-box">
-            <img src="images/group.png" alt="">
+            <img src="images/group.png" alt="group image">
           </div>
         </div>
       </div>
@@ -276,17 +476,21 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form>
             <div>
-              <input type="text" placeholder="Name" />
+              <p>  Name  <br> </p>
+              <input type = "text" name="fname" placeholder="Name" required/>
             </div>
             <div>
+              <p>  Phone Number  <br> </p>
               <input type="text" placeholder="Phone Number" />
             </div>
             <div>
+              <p>  Email  <br> </p>
               <input type="email" placeholder="Email" />
             </div>
             <div>
+              <p>  message  <br> </p>
               <input type="text" class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex ">
@@ -298,9 +502,9 @@
         </div>
         <div class="col-md-6">
           <div class="map_container">
-            <div class="map">
-              <div id="googleMap" style="width:100%;height:100%;"></div>
-            </div>
+            <div class="google-map">
+     <iframe src="https://www.google.com/maps/place/The+Kyoto+College+of+Graduate+Studies+for+Informatics/@35.0306853,135.779309,15z/data=!4m6!3m5!1s0x6001085a40096db1:0x8c895182522ac6d1!8m2!3d35.0306853!4d135.779309!16s%2Fm%2F02wvcsw?entry=ttu" width="600" height="450"></iframe>
+</div>
           </div>
         </div>
       </div>
@@ -333,13 +537,8 @@
   </footer>
   <!-- footer section -->
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <script src="https://www.google.com/maps/place/The+Kyoto+College+of+Graduate+Studies+for+Informatics/@35.0306853,135.779309,15z/data=!4m6!3m5!1s0x6001085a40096db1:0x8c895182522ac6d1!8m2!3d35.0306853!4d135.779309!16s%2Fm%2F02wvcsw?entry=ttu"></script>
   <!-- End Google Map -->
 
 
